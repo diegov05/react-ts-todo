@@ -1,0 +1,37 @@
+.app__todo__wrapper {
+    background: var(--gray-color);
+    padding: 1rem 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.app__todo__wrapper-description {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+}
+
+input[type=checkbox] {
+    border: 0;
+    outline: 0;
+}
+
+.app__todo__wrapper-icons {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+}
+
+.edit__icon:hover {
+    color: yellow;
+}
+
+.trash__icon:hover {
+    color: red;
+}
