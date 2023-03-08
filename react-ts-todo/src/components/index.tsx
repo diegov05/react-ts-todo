@@ -1,5 +1,5 @@
-import { Todo } from "./Todo"
+import { Form } from "./Form"
 
 export {
-    Todo
+    Form
 }
