@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800&display=swap');
+
+:root {
+    --font-base: "Inter", sans-serif;
+    --black-font: 800;
+    --regular-font: 400;
+    --light-font: 300;
+    --light-gray-color: #3c3c3c;
+    --dark-gray-color: #1c1c1c;
+    --gray-color: #282828;
+    --green-color: #29962d;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
