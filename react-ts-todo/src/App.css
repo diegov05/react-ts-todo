@@ -1,0 +1,73 @@
+.app__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.headtext {
+    font-family: var(--font-base);
+    font-weight: var(--black-font);
+    font-size: 32px;
+    line-height: 39px;
+    color: #fff;
+}
+
+.paragraph {
+    font-family: var(--font-base);
+    font-weight: var(--regular-font);
+    font-size: 12px;
+    color: #fff;
+}
+
+.custom__button {
+    padding: 1rem 2rem;
+    border: 0;
+    font-family: var(--font-base);
+    font-style: normal;
+    font-weight: var(--black-font);
+    font-size: 12px;
+    line-height: 15px;
+    background-color: var(--light-gray-color);
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.custom__button:hover {
+    opacity: .9;
+}
+
+.custom__input {
+    width: 300px;
+    padding: 1rem 1rem;
+    border: 0;
+    outline: 0;
+    font-family: var(--font-base);
+    font-style: normal;
+    font-weight: var(--light-font);
+    font-size: 12px;
+    line-height: 15px;
+    background-color: var(--dark-gray-color);
+    color: #fff;
+}
+
+.custom__input:focus {
+    outline: 0;
+}
+
+.app__wrapper-content {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.custom__icon {
+    width: 14px;
+    height: 14px;
+    color: #fff;
+    transition: .3s;
+    cursor: pointer;
+}
