@@ -1,0 +1,51 @@
+.app__todo__wrapper {
+    background: var(--gray-color);
+    padding: 1rem 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.app__todo__wrapper-description {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+}
+
+input[type=checkbox] {
+    border: 0;
+    outline: 0;
+}
+
+.app__todo__wrapper-icons {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+}
+
+.edit__button,
+.delete__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: .5rem;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.edit__button:hover {
+    background-color: yellow;
+}
+
+.delete__button:hover {
+    background-color: red;
+}
