@@ -22,3 +22,7 @@ a {
     color: unset;
     text-decoration: none;
 }
+
+ul {
+    list-style: none;
+}
